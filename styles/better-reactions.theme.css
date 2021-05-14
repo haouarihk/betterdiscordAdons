@@ -1,0 +1,47 @@
+/**
+ * @name Better reactions
+ * @description reactions... but better
+ * @author haouarihk
+ * @version 1.0.1
+ * @authorId 
+ * @invite Jx3TjNS
+ * @source https://raw.githubusercontent.com/haouarihk/betterdiscordAdons/main/styles/better-reactions.theme.css
+ */
+
+
+
+:root{
+    --text-norm:#696B70;
+    --not-active-background:#3E4147;
+    --active-background:rgb(66, 73, 94);
+    --active:rgb(105, 124, 189);
+}
+
+/* changing normal text color to match old theme */
+.reactionCount-2mvXRV{
+    color: var(--text-norm);
+}
+
+
+/* changing border radios to match old theme */
+.reaction-1hd86g{
+    border-radius: .1666rem;
+}
+
+
+.reactionInner-15NvIl{
+    background-color:var(--not-active-background);
+}
+
+
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV{
+    color: var(--active);
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu{
+    background-color:var(--active-background);
+    border-bottom:.001em solid var(--active);
+    border-left:.001em solid var(--active);
+    transition: border 1s;
+}
+
